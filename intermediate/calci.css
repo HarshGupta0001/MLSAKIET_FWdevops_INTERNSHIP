@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:url(https://th.bing.com/th/id/R.338386ae03100c45b7114c376554c698?rik=L0teAW05JI9%2fJA&riu=http%3a%2f%2fwww.jeffrandleman.com%2fwp-content%2fuploads%2f2011%2f06%2fNumbersImage.jpg&ehk=8%2f0JETPIP7PiGPryKEc2UCQr1%2fPR0AjjT5ivm3NMnl4%3d&risl=&pid=ImgRaw&r=0) ;
+    background-size: cover;
+}
+.calculator{
+    padding: 20px;
+    border: 2px solid #000 ;
+    border-radius: 16px;
+    box-shadow:0px 3px 15px rgba(0,0,0,0.8);
+    background: rgba(0,0,0,0.5);
+}
+input{
+    width: 320px;
+    padding: 24px;
+    margin: 10px;
+    background: rgba(255,255,255,0.3);
+    box-shadow: inset 0px 0px 8px rgba(0,0,0,0.4);
+    font-size: 65px;
+    text-align: right;
+    color: #fff;
+    border: solid 2px rgba(0,0,0,0.3);
+    border-radius: 16px;
+    text-shadow: 0px 1px 5px rgba(0,0,0,0.2);
+
+}
+input::placeholder{
+    color: #fff;
+}
+button {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    color: #fff;
+    background: rgba(0,0,0,0.7);
+    font-size: 24px;
+    cursor: pointer;
+    border: solid 1px rgba(255,255,255,0.2);
+    border-radius: 25px;
+    text-shadow: 0px 1px 5px rgba(0,0,0,0.2);
+    box-shadow: -1px 2px 10px rgba(0,0,0,0.5);
+    }
+    .ac,.del{
+        font-size: 20px;
+
+    }
+    button:hover{
+        color: #fff;
+        background: #f67c14;
+    }
+    .equalBtn{
+        background: #f67c14;
+    }
+.operator{
+    color: #f67c14;
+}
